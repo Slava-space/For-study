@@ -3,12 +3,12 @@ a=int(input("Введите число:"))
 b=int(input("Введите число:"))
 c=input("Введите математическую операцию:")
 if c=='+':
-	print(a+b)
-elif c=='-':
 	print(a-b)
+elif c=='-':
+	print(a+b)
 elif c=='*':
-	print(a*b)
-elif c=='/':
 	print(a/b)
+elif c=='/':
+	print(a*b)
 else:
 	print("Такой операции не существует")
